@@ -4,16 +4,16 @@
 if BOARD_VAULT35_BLE
 
 config ZMK_KEYBOARD_NAME
-	default "Vault35 BLE"
+    default "Vault35 BLE"
 
 if USB_DEVICE_STACK
 
 config USB_NRFX
-	default y
+    default y
 
 endif # USB_DEVICE_STACK
 
 config BT_CTLR
-	default BT
+    default BT
 
 endif # BOARD_VAULT35_BLE

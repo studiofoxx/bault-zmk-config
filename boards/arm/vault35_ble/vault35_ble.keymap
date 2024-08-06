@@ -8,7 +8,7 @@
     behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
+            display-name = "Homerow Mods";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;

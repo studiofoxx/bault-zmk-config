@@ -1,4 +1,4 @@
-# Vault35 BLE ZMK Config
+# BaulT ZMK Config
 
 ## Instructions
 
@@ -8,7 +8,7 @@
 2. Navigate to the **Actions** tab and click the "I understand my workflows, go ahead and run them" button to enable builds.
 
    ![Actions tab with "I understand my workflows" button](https://i.imgur.com/B7cTAE6.png)
-3. Edit [config/vault35_ble.conf](config/vault35_ble.conf) to add/enable/disable features. Edit [config/vault35_ble.keymap](config/vault35_ble.keymap) to change the keymap.
+3. Edit [config/bault.conf](config/bault.conf) to add/enable/disable features. Edit [config/bault.keymap](config/bault.keymap) to change the keymap.
 4. After committing your changes, your firmware will begin compiling. Assuming there are no typos or other problems, it will eventually be [downloadable from the Actions tab](https://zmk.dev/docs/user-setup#installing-the-firmware).
 5. [Flash](https://zmk.dev/docs/user-setup#flashing-uf2-files) the non-`settings-reset` firmware.
 
@@ -37,7 +37,7 @@ manifest:
     path: config
 ```
 
-After making this change, add a copy of [the configuration file](config/vault35_ble.conf) and [the keymap](config/vault35_ble.keymap) to the `config` folder that is already in your repo.
+After making this change, add a copy of [the configuration file](config/bault.conf) and [the keymap](config/bault.keymap) to the `config` folder that is already in your repo.
 
 ## Common Questions/Problems
 
@@ -59,7 +59,7 @@ Changes made in the `boards/arm` folder will be overridden or ignored; your cust
 
 ### After disconnecting the keyboard from Bluetooth, it won't reconnect.
 
-#### Forget the Bluetooth connection on both the vault35_ble and the host, then try re-pairing.
+#### Forget the Bluetooth connection on both the bault and the host, then try re-pairing.
 
 If you don't remember which profile on the keyboard was used, you may have to clear them all. [See ZMK's documentation for more details on profile management](https://zmk.dev/docs/behaviors/bluetooth#bluetooth-pairing-and-profiles).
 

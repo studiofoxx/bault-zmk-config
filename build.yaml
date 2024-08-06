@@ -18,6 +18,6 @@
 #
 ---
 include:
-  - board: vault35_ble
-  - board: vault35_ble
+  - board: bault
+  - board: bault
     shield: settings_reset

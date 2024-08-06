@@ -8,12 +8,12 @@
 
 #include <nordic/nrf52840_qiaa.dtsi>
 
-#include "vault35_ble-transforms.dtsi"
-#include "vault35_ble-layouts.dtsi"
+#include "bault-transforms.dtsi"
+#include "bault-layouts.dtsi"
 
 / {
-    model = "Vault35";
-    compatible = "quarkworks,vault35";
+    model = "BaulT";
+    compatible = "quarkworks,bault";
 
     chosen {
         zephyr,code-partition = &code_partition;

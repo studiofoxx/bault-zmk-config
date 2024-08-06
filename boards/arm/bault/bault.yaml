@@ -1,5 +1,5 @@
-identifier: vault35
-name: Vault35
+identifier: bault
+name: BaulT
 type: mcu
 arch: arm
 toolchain:

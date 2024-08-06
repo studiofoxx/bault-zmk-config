@@ -1,12 +1,12 @@
 # Copyright (c) 2024 Brandon Beltran
 # SPDX-License-Identifier: MIT
 
-if BOARD_VAULT35_BLE
+if BOARD_BAULT
 
 config ZMK_KEYBOARD_NAME
-    default "Vault35 BLE"
+    default "BaulT"
 
 config BT_CTLR
     default BT
 
-endif # BOARD_VAULT35_BLE
+endif # BOARD_BAULT

@@ -25,4 +25,4 @@ manifest:
     path: config
 ```
 
-After doing so, add a copy of [the default keymap](arm/bault/bault.keymap) and create a `bault.conf` file `config` folder that is already in your repo. You can take a look at the [user repo](https://github.com/Armastardo/bault-user-config)) for an example.
+After doing so, add a copy of [the default keymap](arm/bault/bault.keymap) and create a `bault.conf` file `config` folder that is already in your repo. You can take a look at the [user repo](https://github.com/Armastardo/bault-user-config) for an example.

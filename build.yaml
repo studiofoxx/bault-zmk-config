@@ -19,3 +19,5 @@
 ---
 include:
   - board: vault35_ble
+  - board: vault35_ble
+    shield: settings_reset
